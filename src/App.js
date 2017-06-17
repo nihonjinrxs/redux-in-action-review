@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TaskList from './components/TasksPage';
+import TasksPage from './components/TasksPage';
 
 const mockTasks = [ // #A
   {
