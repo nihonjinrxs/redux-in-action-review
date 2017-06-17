@@ -10,12 +10,12 @@ class TasksPage extends Component { // #B
       <div className="tasks">
         <div className="task-lists">
           {TASK_STATUSES.map(status => { // #C
-            const tasks = tasks.filter(task => task.status === status)
+            const filtered = tasks.filter(task => task.status === status)
             return (
               <TaskList
                 key={status}
                 status={status}
-                tasks={tasks}
+                tasks={filtered}
               />
             );
           })}
