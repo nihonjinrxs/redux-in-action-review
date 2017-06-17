@@ -4,7 +4,7 @@ import Task from './Task';
 export default function TaskList(props) {
   return (
     <div className="task-list">
-    <div className=”task-list-title”>
+    <div className="task-list-title">
       <strong>{props.status}</strong>
     </div>
     {this.props.tasks.map(task => (
